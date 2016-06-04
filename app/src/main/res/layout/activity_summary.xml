@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C00"
+        android:elevation="2dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="32dp"
+        android:paddingTop="16dp"
+        android:text="Резюме"
+        android:textColor="#F2F2F1"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BBB">
+
+        <TextView
+            android:id="@+id/edit_user_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:gravity="center_horizontal"
+            android:text="Иван Иванов, 56\nул. Кокиче 6,\nград. Враца"
+            android:textColor="#000"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_name"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="128dp"
+            android:background="#C00"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="Покажи адреса на картата"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

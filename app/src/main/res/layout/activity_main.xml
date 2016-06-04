@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tnt.android.hw2_android_userdetails.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C00"
+        android:elevation="2dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="32dp"
+        android:paddingTop="16dp"
+        android:text="Вход"
+        android:textColor="#F2F2F1"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BBB">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/edit_name"
+            android:gravity="center_horizontal"
+            android:text="Въведете имената си"
+            android:textColor="#FFF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="64dp"
+            android:background="@drawable/edittext_underline"
+            android:hint="Име"
+            android:inputType="textPersonName"
+            android:paddingBottom="8dp"
+            android:textColorHint="#C00"
+            android:textSize="24sp" />
+
+
+        <Button
+            android:id="@+id/btn_enter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="192dp"
+            android:background="#C00"
+            android:text="Вход"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

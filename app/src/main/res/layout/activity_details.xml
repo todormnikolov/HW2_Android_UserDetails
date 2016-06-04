@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C00"
+        android:elevation="2dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="32dp"
+        android:paddingTop="16dp"
+        android:text="Детайли"
+        android:textColor="#F2F2F1"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BBB"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:paddingTop="16dp">
+
+        <EditText
+            android:id="@+id/edit_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/edittext_underline"
+            android:hint="Години"
+            android:inputType="number"
+            android:paddingBottom="8dp"
+            android:textColorHint="#C00"
+            android:textSize="24sp" />
+
+
+        <EditText
+            android:id="@+id/edit_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_age"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/edittext_underline"
+            android:hint="Адрес"
+            android:inputType="text"
+            android:paddingBottom="8dp"
+            android:textColorHint="#C00"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/edit_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_address"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/edittext_underline"
+            android:hint="Град"
+            android:inputType="text"
+            android:paddingBottom="8dp"
+            android:textColorHint="#C00"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/edit_born_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_city"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/edittext_underline"
+            android:hint="Дата на раждане"
+            android:inputType="text"
+            android:paddingBottom="8dp"
+            android:textColorHint="#C00"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="32dp"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:background="#C00"
+            android:text="Продължи"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>
