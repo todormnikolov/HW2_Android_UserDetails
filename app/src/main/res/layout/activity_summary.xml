@@ -23,10 +23,12 @@
         android:background="#BBB">
 
         <TextView
-            android:id="@+id/edit_user_info"
+            android:id="@+id/txt_user_info"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
             android:gravity="center_horizontal"
             android:text="Иван Иванов, 56\nул. Кокиче 6,\nград. Враца"
             android:textColor="#000"

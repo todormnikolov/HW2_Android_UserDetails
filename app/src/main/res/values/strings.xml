@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">HW2_Android_UserDetails</string>
+    <string name="title_activity_details">DetailsActivity</string>
 </resources>
